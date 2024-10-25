@@ -2,10 +2,10 @@
     margin-top: 8%;
     margin-left: 35%;
     height : auto;
-    width: 500px;
+    width: 450px;
     box-sizing: border-box;
-    padding : 15px 20px;
-    border : 1px solid;
+    padding : 15px 15px;
+    border : 1px solid rgb(0, 0, 0);
     border-radius : 8px;
 }
 .h1e{

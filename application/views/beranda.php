@@ -1,2 +1,1 @@
-<h1>Selamat Datang Di Aplikasi</h1>
-<h1>Pendaftaran Lomba SMK Syafi'i Akrom</h1>
+<h1 class="beranda">Selamat Datang Di Aplikasi Pendaftaran Lomba SMK Syafi'i Akrom</h1>

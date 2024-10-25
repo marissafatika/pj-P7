@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/tambah.css')?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/profil.css')?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/edit_profil.css')?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/beranda.css')?>">
     <title>Document</title>
 </head>
 <body>  
