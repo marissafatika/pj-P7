@@ -1,0 +1,54 @@
+.tambah {
+    margin-top: 8%;
+    margin-left: 35%;
+    height : auto;
+    width: 500px;
+    box-sizing: border-box;
+    padding : 15px 20px;
+    border : 1px solid;
+    border-radius : 8px;
+}
+.h1t{
+    margin-top : 20px;
+    margin-bottom : 20px;
+    text-align : center;
+    color : rgb(51, 151, 213);
+}
+
+.tambah input[type=submit]{
+    margin-top: 1em;
+    padding: 8px 30px;
+    /* menghilangkan garis pinggir */
+    border: none;
+    background-color: rgb(51, 151, 213);
+    color: white;
+    border-radius: 5px;
+    margin-left: 160px;
+    /* biar cursornya berubah jadi tangan atau telunjuk*/
+    cursor: pointer;
+    
+      
+}
+
+.tambah input[type=text]{
+    width: 95%;
+    padding: 5px 3px;
+    margin: 10px 5px;
+    border:2px solid  rgb(51, 151, 213);
+}
+
+.tambah input[type=date]{
+    width: 95%;
+    border: 1px solid black;
+    padding: 5px 3px;
+    margin: 10px 5px;
+    border: 2px solid rgb(51, 151, 213);
+}
+
+select{
+    width: 98%;
+    padding: 5px 3px;
+    margin: 10px 5px;
+    border: 2px solid rgb(51, 151, 213);
+    
+}

@@ -1,0 +1,43 @@
+.daftar {
+   margin-left: 35%;
+    height : auto;
+    width: 500px;
+    box-sizing: border-box;
+    padding : 15px 20px;
+    border : 1px solid skyblue;
+    border-radius : 8px;
+}
+.h1d{
+    margin-top : 25px;
+    margin-bottom : 20px;
+    text-align : center;
+    color : rgb(68, 186, 233);
+}
+
+.daftar input[type=text]{
+    width: 95%;
+    padding: 5px 3px;
+    margin: 10px 5px;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+   
+}
+.daftar input[type=password]{
+    width: 95%;
+    padding: 5px 3px;
+    margin: 10px 5px;
+    border :2px solid skyblue;
+    border-radius: 5px;
+}
+.daftar input[type=submit]{
+    margin-top: 1em;
+    padding: 8px 30px;
+    /* menghilangkan garis pinggir */
+    border: none;
+    background-color: rgb(51, 151, 213);
+    color: white;
+    border-radius: 5px;
+    margin-left: 160px;
+    /* biar cursornya berubah jadi tangan atau telunjuk*/
+    cursor: pointer;
+}

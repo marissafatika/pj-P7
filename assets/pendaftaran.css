@@ -1,0 +1,34 @@
+table,th,td {
+    border: 1px solid black;
+    /* agar garis yang dihasilkan satu tidak dobel */
+    border-collapse: collapse;
+    padding: 10px;
+    
+    }
+    table {
+    width: 800px;
+    /* agar posisi tabel berada ditengah */
+    margin: 40px ;
+    }
+    .adaftar {
+        color: white;
+        background-color: rgb(51, 151, 213);
+        padding: 5px;
+        margin-left: 40px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    .a-edit{
+        background-color: rgb(51, 151, 213);
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    .a-hapus{
+        background-color: red;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
