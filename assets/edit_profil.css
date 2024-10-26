@@ -23,16 +23,7 @@
     border-radius: 5px;
     margin-left: 160px;
     /* biar cursornya berubah jadi tangan atau telunjuk*/
-    cursor: pointer;
-    
-      
-}
-
-.ep input[type=hidden]{
-    width: 95%;
-    padding: 5px 3px;
-    margin: 10px 5px;
-    border:2px solid  rgb(51, 151, 213);
+    cursor: pointer;      
 }
 
 .ep input[type=text]{
@@ -41,5 +32,11 @@
     padding: 5px 3px;
     margin: 10px 5px;
     border: 2px solid rgb(51, 151, 213);
+}
+.ep input[type=password]{
+    width: 95%;
+    padding: 5px 3px;
+    margin: 10px 5px;
+    border:2px solid  rgb(51, 151, 213);
 }
 
