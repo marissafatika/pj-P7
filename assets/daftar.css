@@ -1,11 +1,12 @@
 .daftar {
-   margin-left: 35%;
+   margin-left: 32%;
     height : auto;
     width: 500px;
     box-sizing: border-box;
     padding : 15px 20px;
     border : 1px solid skyblue;
     border-radius : 8px;
+    box-shadow: 0 0 25px rgb(51, 151, 213);
 }
 .h1d{
     margin-top : 25px;
