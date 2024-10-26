@@ -29,10 +29,12 @@ class pendaftaran extends CI_Controller {
     public function edit($id)
     {
         $this->load->model('pendaftaran_model');
-        $data['jenis_lomba'] = $this->db->get('jenis_lomba')->result_array();
+         $data['jenis_lomba'] = $this->db->get('jenis_lomba')->result_array();
         
         $data['edit'] = $this->pendaftaran_model->getPendaftaranById($id);
 
+        // $this->load->model('data_model');
+        // $data['jenis_lomba'] = $this->data_model->getData();
 
         $this->load->view('template/header');
         $this->load->view('template/menu');

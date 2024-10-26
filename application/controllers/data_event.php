@@ -22,7 +22,7 @@ class data_event extends CI_Controller {
     }
     public function hapus($id)
     {
-        $this->db->delete('jenis_lomba',['id' => $id]);
+        $this->db->delete('jenis_lomba',['id_jns' => $id]);
         redirect('data_event');
     }
     

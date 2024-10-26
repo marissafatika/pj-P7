@@ -8,6 +8,6 @@ class Data_model extends CI_Model {
     }
     public function getDataById($id)
     {
-        return $this->db->get_where('jenis_lomba',['id' => $id])->row_array();
+        return $this->db->get_where('jenis_lomba',['id_jns' => $id])->row_array();
     }
 }

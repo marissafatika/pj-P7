@@ -12,7 +12,7 @@
         <label for="">Jenis Lomba</label>
             <select name="nama_lomba">
             <?php foreach($jenis_lomba as $jns) : ?>
-                <option value="<?= $jns['id']?>"><?= $jns['nama_lomba'] ?></option>
+                <option value="<?= $jns['id_jns']?>"><?= $jns['nama_lomba'] ?></option>
                 <?php endforeach ; ?>
             </select> 
             <br><br>

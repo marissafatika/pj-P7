@@ -6,7 +6,7 @@ class Pendaftaran_model extends CI_Model {
     {
         $this->db->select('*');
         $this->db->from('pendaftaran');
-        $this->db->join('jenis_lomba','jenis_lomba.id = pendaftaran.id_lomba');
+        $this->db->join('jenis_lomba','jenis_lomba.id_jns = pendaftaran.id_lomba');
         return $this->db->get()->result_array();
     }
     public function getPendaftaranById($id)
