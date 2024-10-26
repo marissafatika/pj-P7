@@ -12,9 +12,8 @@
     margin-top : 25px;
     margin-bottom : 20px;
     text-align : center;
-    color : rgb(68, 186, 233);
+    color : rgb(13, 88, 136);
 }
-
 .daftar input[type=text]{
     width: 95%;
     padding: 5px 3px;
@@ -35,10 +34,10 @@
     padding: 8px 30px;
     /* menghilangkan garis pinggir */
     border: none;
-    background-color: rgb(51, 151, 213);
+    background-color:rgb(13, 88, 136);
     color: white;
     border-radius: 5px;
-    margin-left: 160px;
+    margin-left: 165px;
     /* biar cursornya berubah jadi tangan atau telunjuk*/
     cursor: pointer;
 }

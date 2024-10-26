@@ -3,12 +3,12 @@ table,th,td {
     /* agar garis yang dihasilkan satu tidak dobel */
     border-collapse: collapse;
     padding: 10px;
-    
     }
     table {
     width: 800px;
     /* agar posisi tabel berada ditengah */
     margin: 40px ;
+
     }
     .adaftar {
         color: white;

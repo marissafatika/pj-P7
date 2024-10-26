@@ -11,14 +11,14 @@
     }
     h2{
         text-align: center;
-        color: rgb(51, 151, 213);
+        color: rgb(13, 88, 136);
     }
     
     .login input[type=submit] {
         margin-top: 1em;
         padding: 7px 40px;
         border: none;
-        background-color: rgb(51, 151, 213);
+        background-color:rgb(13, 88, 136);
         border-radius: 5px;
         color: white;
         margin-left: 150px;
@@ -39,7 +39,7 @@
         border-radius: 5px;
     }
     .login a{
-        color: rgb(51, 151, 213);
+        color:rgb(13, 88, 136);
         text-decoration: none;
     }
     

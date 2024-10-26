@@ -4,11 +4,11 @@
 }
 .profil{
 
-    width: 300px;
+    width: 250px;
     padding: 20px;
     margin-left: 36%;
     margin-top: 130px;
-    border: 2px solid rgb(51, 151, 213);
+    border: 1px solid rgb(51, 151, 213);
     font-size: 18px;
     box-shadow: 0 0 25px rgb(51, 151, 213);
 
@@ -17,7 +17,7 @@
 
         color: white;
         background-color: rgb(51, 151, 213);
-        padding: 3px;
+        padding: 2px;
         border-radius: 5px;
         text-decoration: none;
     }
