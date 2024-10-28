@@ -47,7 +47,7 @@ class data_event extends CI_Controller {
         
         ];
 
-        $this->db->where('id',$this->input->post('id'));
+        $this->db->where('id_jns',$this->input->post('id_jns'));
         $this->db->update('jenis_lomba',$data);
         redirect('data_event');
     }
